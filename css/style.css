@@ -318,7 +318,7 @@ body{
 
 .footer {
     width: 100%;
-    background: #2F303A;
+    background: var(--hero-bg);
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -331,8 +331,6 @@ body{
     color: var(--white-text-color);
 }
 
-
-
 .footer-item {
     font-style: normal;
     line-height: 1.19;
@@ -340,18 +338,22 @@ body{
     cursor: pointer;
 }
 
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 
 .footer-item:hover,.footer-item:focus {
     color: var(--acent-color);
 }
 
-
+.footer-address {
+    margin-bottom: 9px;
+}
 .footer-address>a {
     font-style: normal;
     text-decoration: none;
     line-height: 1.7;
     color: var(--white-text-color);
-    margin-bottom: 10px;
 }
 
 
