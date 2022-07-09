@@ -383,7 +383,7 @@ body{
 .menu-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 /* .photo {
