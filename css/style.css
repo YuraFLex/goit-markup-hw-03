@@ -41,8 +41,8 @@ body{
     background-color: var(--prinmary-bg-color);
 }
 
+/* Утилиты */
 
-/* Header */
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -58,8 +58,10 @@ body{
     padding-bottom: 94px;
     /* background-color: skyblue; */
 }
-
-
+.no-pb {
+    padding-bottom: 0;
+}
+/* Header */
 .header {
 
     border-bottom: 1px solid #ECECEC;
